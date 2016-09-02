@@ -1,6 +1,6 @@
 #!/bin/sh -eux
 
-pip install --user platformio
+pip install --user -U https://github.com/platformio/platformio/archive/develop.zip
 
 rm -r test
 
